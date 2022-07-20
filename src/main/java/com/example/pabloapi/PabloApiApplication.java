@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PabloApiApplication {
     @RequestMapping("/")
     String saludar(){
-        return "pablo y ambar se gustan leru leru";
+        return "Hola mundo";
     }
     public static void main(String[] args) {
         SpringApplication.run(PabloApiApplication.class, args);
